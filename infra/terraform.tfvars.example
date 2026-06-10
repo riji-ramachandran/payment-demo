@@ -1,0 +1,10 @@
+region             = "eu-west-1"
+project            = "calm-pci-wallet"
+demo_user_email    = "demo@example.com"
+demo_user_password = "Demo!Pass123"
+
+# Subscribe an address to payment receipts (optional). Leave empty to skip.
+notification_email = ""
+
+# Object Lock retention for audit objects. 1 day for demos.
+audit_retain_days = 1
